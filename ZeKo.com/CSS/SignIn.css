@@ -1,0 +1,19 @@
+.container {text-align: center; padding: 20px 10px; position: relative; margin: auto}
+.container img {width: 150px}
+.form {padding: 15px; border: 1px solid #DDD; text-align: right; direction: rtl; border-radius: 7px; margin-top: 30px}
+.Form-control {margin-bottom: 10px; padding-bottom: 15px; position: relative; }
+.Form-control label {display: inline-block; margin-bottom: 5px; font-weight: bold}
+.Form-control input {display: block; border: 1px solid #AAA; width: 100%; padding: 7px 10px; font-weight: 400; margin-bottom: 5px; font-size: 15px; border-radius: 4px; }
+.Form-control.success input {border-color: #03b950;}
+.Form-control.error input {border-color: #e74c3c;}
+.Form-control i {position: absolute; top: 39px; left: 10px; visibility: hidden}
+.Form-control.success i.fa-check-circle {visibility: visible; color: #03b950;}
+.Form-control.error i.fa-exclamation-circle {visibility: visible; color: #e74c3c}
+.Form-control small {position: absolute; bottom: 0; right: 0; visibility: hidden; font-size: 13px}
+.Form-control.error small {visibility: visible; color: #e74c3c}
+.form button {padding: 7px ; outline-style: none; font-weight: 500; font-size: 18px; cursor: pointer; background-color: #3197db; border: none; color: #FFF; border-radius: 4px; width: 100%; margin-top: 0}
+.form h3 {font-size: 15px; margin: 15px 0 0;}
+.container h5 {font-size: 14px; color: #3197db; margin: 15px 0}
+.container h5 a {cursor: pointer; margin: 10px 7px}
+.container h5 a:hover {text-decoration: underline; color: #3197db;}
+.container h6 {margin: 20px 0;}
